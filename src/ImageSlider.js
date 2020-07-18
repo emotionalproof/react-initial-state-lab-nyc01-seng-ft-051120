@@ -1,29 +1,21 @@
-import { Component } from "react"
 
-// your ImageSlider code here!
-import React from 'react'
+import React from 'react';
 
 class ImageSlider extends React.Component {
-    constructor(){
+    constructor() {
         super()
-
         this.state = {
             currentSlideIndex: 0
         }
     }
-
-
+    
     render() {
-        return (
-            <h4>
-                I am on slide {this.state.currentSlideIndex}
-            </h4>
+        return(
+            <div>
+                <h2>I am on slide {this.state.currentSlideIndex}</h2>
+            </div>
         )
     }
-
-
-
 }
-
 
 export default ImageSlider
